@@ -121,7 +121,7 @@ class SignUpViewController: UIViewController, UIImagePickerControllerDelegate, U
         task.resume()
 
         
-      //  let CVImageData = UIImageJPEGRepresentation(CVPhotoImageView.image!, 1)
+        let CVImageData = UIImageJPEGRepresentation(CVPhotoImageView.image!, 1)
         
         
         //store data
