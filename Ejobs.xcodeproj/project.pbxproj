@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1217C8E21C21A70B00E68CDE /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1217C8E11C21A70B00E68CDE /* SignInViewController.swift */; };
+		1217C8E51C222BC800E68CDE /* 11806866_10153459222913618_1744599429_o.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1217C8E41C222BC800E68CDE /* 11806866_10153459222913618_1744599429_o.jpg */; };
 		1244986A1C1EF52A00F807F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124498691C1EF52A00F807F4 /* AppDelegate.swift */; };
 		1244986C1C1EF52A00F807F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1244986B1C1EF52A00F807F4 /* ViewController.swift */; };
 		1244986F1C1EF52A00F807F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1244986D1C1EF52A00F807F4 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		124498741C1EF52A00F807F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 124498721C1EF52A00F807F4 /* LaunchScreen.storyboard */; };
 		1244987F1C1EF52A00F807F4 /* EjobsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1244987E1C1EF52A00F807F4 /* EjobsTests.swift */; };
 		1244988A1C1EF52A00F807F4 /* EjobsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124498891C1EF52A00F807F4 /* EjobsUITests.swift */; };
+		124498981C1EFAE800F807F4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124498971C1EFAE800F807F4 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1217C8E11C21A70B00E68CDE /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		1217C8E41C222BC800E68CDE /* 11806866_10153459222913618_1744599429_o.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11806866_10153459222913618_1744599429_o.jpg; sourceTree = "<group>"; };
 		124498661C1EF52A00F807F4 /* Ejobs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ejobs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		124498691C1EF52A00F807F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1244986B1C1EF52A00F807F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		124498851C1EF52A00F807F4 /* EjobsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EjobsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		124498891C1EF52A00F807F4 /* EjobsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjobsUITests.swift; sourceTree = "<group>"; };
 		1244988B1C1EF52A00F807F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		124498971C1EFAE800F807F4 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +80,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1217C8E31C222BB800E68CDE /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Photo;
+			sourceTree = "<group>";
+		};
 		1244985D1C1EF52A00F807F4 = {
 			isa = PBXGroup;
 			children = (
+				1217C8E41C222BC800E68CDE /* 11806866_10153459222913618_1744599429_o.jpg */,
+				1217C8E31C222BB800E68CDE /* Photo */,
 				124498681C1EF52A00F807F4 /* Ejobs */,
 				1244987D1C1EF52A00F807F4 /* EjobsTests */,
 				124498881C1EF52A00F807F4 /* EjobsUITests */,
@@ -103,6 +118,8 @@
 				124498701C1EF52A00F807F4 /* Assets.xcassets */,
 				124498721C1EF52A00F807F4 /* LaunchScreen.storyboard */,
 				124498751C1EF52A00F807F4 /* Info.plist */,
+				124498971C1EFAE800F807F4 /* SignUpViewController.swift */,
+				1217C8E11C21A70B00E68CDE /* SignInViewController.swift */,
 			);
 			path = Ejobs;
 			sourceTree = "<group>";
@@ -234,6 +251,7 @@
 			files = (
 				124498741C1EF52A00F807F4 /* LaunchScreen.storyboard in Resources */,
 				124498711C1EF52A00F807F4 /* Assets.xcassets in Resources */,
+				1217C8E51C222BC800E68CDE /* 11806866_10153459222913618_1744599429_o.jpg in Resources */,
 				1244986F1C1EF52A00F807F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1217C8E21C21A70B00E68CDE /* SignInViewController.swift in Sources */,
+				124498981C1EFAE800F807F4 /* SignUpViewController.swift in Sources */,
 				1244986C1C1EF52A00F807F4 /* ViewController.swift in Sources */,
 				1244986A1C1EF52A00F807F4 /* AppDelegate.swift in Sources */,
 			);
@@ -401,6 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Ejobs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.digits.ejobs.Ejobs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Ejobs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.digits.ejobs.Ejobs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -485,6 +507,7 @@
 				124498901C1EF52A00F807F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		124498911C1EF52A00F807F4 /* Build configuration list for PBXNativeTarget "EjobsTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +516,7 @@
 				124498931C1EF52A00F807F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		124498941C1EF52A00F807F4 /* Build configuration list for PBXNativeTarget "EjobsUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +525,7 @@
 				124498961C1EF52A00F807F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
